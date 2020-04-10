@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main class="main">
+        <div class="zipHolder">
+            <h2>Weather Today</h2>
+            <label for="zip">Zip Code</label>
+            <input type="text" id="zip" placeholder="Enter Zip Code here"/>
+        </div>
+        <div class="feelingHolder">
+            <label for="feelings">Share Your thoughts here..</label>
+            <textarea id="feelings" placeholder="Enter your thoughts.." rows="5" cols="20"></textarea>
+            <button id="generate" type="submit">Generate</button>
+        </div>
+        <div id="entryHolder">
+            <h3>Most recent data</h3>
+            <div id="date"></div>
+            <div id="temp"></div>
+            <div id="content"></div>
+        </div>
+    </main>
+ 
+<script type="text/javascript" src="app.js"></script>    
+</body>
+</html>

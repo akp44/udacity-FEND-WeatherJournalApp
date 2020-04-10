@@ -1,0 +1,47 @@
+*{
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+
+body{
+  display: grid;
+  grid-auto-rows: minmax(150px, auto);
+  height: 100vh;
+  justify-content: center;
+  grid-gap: 1em;
+  font-size: 20px;
+}
+
+h2{
+    padding: 10px;
+}
+
+label, input{
+    padding: 6px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.zipHolder{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.feelingHolder{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#generate{
+    padding: 7px;
+}
+
+#entryHolder{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
